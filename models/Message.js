@@ -1,14 +1,15 @@
 let mongoose = require("mongoose");
 let Schema = mongoose.Schema;
 
-let MessageSchema = new Schema({
+let MessageSchema= new Schema({
     date:{
         type: Date,
         default: new Date()
     },
     text:{
         type: String,
-        required: true
+        /*required: true*/
+
     },
     user:{
         type: Schema.ObjectId,
@@ -20,6 +21,6 @@ let MessageSchema = new Schema({
     }
 });
 
-let model = mongoose.model("message",MessageSchema);
+let model = mongoose.model("messege",MessageSchema);
 
 module.exports = model;

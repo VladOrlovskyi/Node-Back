@@ -1,5 +1,5 @@
 let ControllerError = require("../errors/ControllerError");
-let Messege = require("../models/Messege");
+let Messege = require("../models/Message");
 let controller = {};
 
 controller.getById =  async (req, res, next) => {

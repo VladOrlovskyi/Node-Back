@@ -1,7 +1,7 @@
 let router = require("express").Router();
 
 let ChatRouter = require("./chat-router");
-let MessegeRouter = require("./messege-router");
+let MessegeRouter= require("./messege-router");
 let UserRouter = require("./user-router");
 let SignInRouter = require('./signin-router');
 let LoginRouter = require('./login-router');
